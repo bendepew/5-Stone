@@ -1,0 +1,48 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.item-1 {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+}
+
+{
+    box-sizing: border-box;
+  }
+  
+  .l-flex {
+    overflow-x: hidden;
+  }
+  
+  {
+    box-sizing: border-box;
+  }
+  
+  {
+    box-sizing: border-box;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .l-flex {
+    overflow-x: hidden;
+  }
+  
+  .l-fg3 {
+    display: flex;
+    flex-wrap: wrap;
+    @media (min-width: 600px) {
+      margin: -10px;    
+    }
+
+.img:hover {
+  background-color: blueviolet;
+}

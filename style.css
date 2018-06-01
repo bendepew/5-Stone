@@ -1,10 +1,12 @@
 body {
-    background-color: #fafafa;
+    background-color: #ffffff	;
 }
 
-.navbar-brand {
-    size: 50%;
+.container {
+    padding-top: 2%;
 }
+
+
 
 @media (min-width: 769px) and (max-width: 1281px) {
     #mobileLogo {
@@ -12,6 +14,56 @@ body {
     }
 }
 
+.card {
+    border: none;
+}
+
+.card-title {
+    align-content: flex-start;
+}
+
+.card-block {
+    border: none;
+    background-color: #fafafa;
+    opacity: 0;
+}
+
+.card-text {
+    align-content: center;
+}
+
+.card-img-top {
+    max-width: 35%;
+    max-height: 35%;
+}
+
+.card-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-fluid {
+    width: 100% \9;
+    height: 100%;
+}
+
+.img-thumbnail {
+  width: 50px;
+}
+
+.card-title {
+  text-align: right;
+}
+
+
+.img-thumbnail {
+    width: 25%;
+    color: #8e0303;
+    border: none;
+}
+
+}
 
 .top-buffer {
     margin-top: 1%;
@@ -21,22 +73,27 @@ body {
     height: 400px;
 }
 
-.card {
-    margin-right: 1%;
-    margin=left: 1%: 
-    background-color: #f5f5f5;
-}
 
 .card-img-top {
     size: 50px;
 }
 
-.navbar-nav {
+.navbar-default {
     padding-right: 15px; 
 }
 
-.jumbotron {
-background-image: url("jumbotronIMG.jpg");
+.navbar-expand-lg {
+    background-color: #000000;
+}
+
+.navbar-nav {
+    background-color: #000000;
+}
+
+.jumbotron-fluid {
+    background-image: url('img/jumbotron.png');
+    background-size: cover;
+    height: 50%;
 }
 
 .display-4 {
@@ -52,3 +109,10 @@ background-image: url("jumbotronIMG.jpg");
         margin: 0 auto;
     }
 }
+
+.jumbotron {
+    background-image: url(img/carousel-cropped.png);
+    height: 500px;;
+
+}
+

@@ -7,204 +7,236 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Five Stone</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row top-buffer">
-            <div class="col-md-12">
-                <div class="navbar navbar-expand-md navbar-dark bg-dark collapse navbar-collapse">
-                    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand"><img src="img/placeholderLogo.png" class="img-fluid"></a>
-                    <div class="collapse navbar-collapse" id="collapse_target">
+<div class="container">
+    <div class="row top-buffer">
+            <img src="img/5stone-logo.svg" class="mx-auto">
+    </div>
+</div>
 
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Our Products</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Our Team</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">  Home  <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">  Our Products  <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bios.html">  Our Team  </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">  Our Story  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">  Contact Us  </a>
+              </li>
+        
+          </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="container">
+    <div id="5-stone-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="5-stone-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="5-stone-carousel" data-slide-to="1"></li>
+            <li data-target="5-stone-carousel" data-slide-to="2"></li>
+
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/1.png" alt="First Slide">
+                <div class="carousel-caption">
+                    <h3>Placeholder Text</h3>
+                    <p>More Placeholder Text</p>
                 </div>
             </div>
-        </div>
-    </div> <!-- Closing Container Div -->
-
-    <div class="container">
-        <div class="row top-buffer">
-            <div class="col-sm-12">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/carousel_img-1.webp" alt="Secure Transaction Records">
-
-
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/carousel_img-2.png" alt="Global Transaction View">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/carousel_img-3.jpg" alt="Backed by Hyperledger">
-                        </div>
+            <div class="carousel-item">
+                    <img class="d-block w-100" src="img/2.png" alt="First Slide">
+                <div class="carousel-caption">
+                    <h3>Placeholder Text</h3>
+                    <p>More Placeholder Text</p>
+                </div>
+            </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/3.png" alt="First Slide">
+                    <div class="carousel-caption">
+                    <h3>Placeholder Text</h3>
+                    <p>More Placeholder Text</p>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </div>
+                <a class="carousel-control-prev" href="#5-stone-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#5-stone-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
-
             </div>
         </div>
+    </div>
+</div>
+            
 
-        <div class="container-fluid">
+
+
+<div class="container">
+    <div class="row top-buffer">
+        <div class="col-sm-12">
+
+    <div class="container-fluid">
+        <div class="row-buffer">
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
         <div class="row top-buffer">
 
             <div class="container-fluid">
-                <div class="row">
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="row top-buffer">
+                    <div class="card-deck text-center">
+                        <div class="card text-center">
+                            <div class="card-heading align-items-right">
+                                <img class="img-thumbnail align-items-left" src="img/truth-01.svg" alt="Truth">
+                                <h4 class="card-title">01 / Truth</h4>
+                            </div>
+                                <p class="card-text">A private blockchain application enabling financial literacy and
+                                    insight for the global economy.</p>
+                            <div class="card-body">
+                                
                             </div>
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="card text-center">
+                            <div class="card-heading align-items-right">
+                                <img class="img-thumbnail align-items-left" src="img/vault-01.svg" alt="Truth">
+                                <h4 class="card-title">02 / Vault</h4>
+                            </div>
+                                <p class="card-text">A private blockchain application enabling financial literacy and
+                                    insight for the global economy.</p>
+                            <div class="card-body">
+                                
                             </div>
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="card text-center">
+                            <div class="card-heading align-items-right">
+                                <img class="img-thumbnail align-items-left" src="img/handshake-01.svg" alt="Truth">
+                                <h4 class="card-title">03 / Handshake</h4>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        <div class="row top-buffer">
-
-            <div class="col-sm-12">
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                      <h1 class="display-4">Fluid jumbotron</h1>
-                      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="//placehold.it/720x350" alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text">A private blockchain application enabling financial literacy and
+                                    insight for the global economy.</p>
+                            <div class="card-body">
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-                    <div class="row top-buffer">
-                        
-                        <div class="col-md-5 col-md-offset-3">
-                            <h2>Contact Us</h2>  
-                            <form role="form" method="post" id="reused_form" action="https://formsubmit.io/send/poc@5stone.us">
-                                <div class="form-group">
-                                    <label for="name"> First Name:</label>
-                                    <input type="text" class="form-control" id="name" name="name" required maxlength="50">
+            <div class="container">
+                    <div class="jumbotron jumbotron-fluid">
+                      <div class="img-fluid">
+                        <img src="img/jumbotron.png" class="img-fluid" alt="Read Our Whitepaper">
+
+                      </div>
+                    </div>
+            </div>
+
+            <div class="container">
+                <div class="row-top-buffer">
+                    <div class="card-deck-wrapper">
+                        <div class="card-deck">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="img/people-286x180-1.png" alt="Our Team">
+                                    <h4 class="card-title">Our Team</h4>
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
                                 </div>
-                                <div class="form-group">
-                                    <label for="name"> First Name:</label>
-                                    <input type="text" class="form-control" id="name" name="name" required maxlength="50">
-                                </div>
-                                <div class="form-group">
-                                    <label for="email"> Email:</label>
-                                    <input type="email" class="form-control" id="email" name="email" required maxlength="50">
-                                </div>
-                                <div class="form-group">
-                                    <label for="name"> Message:</label>
-                                    <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your Message Here" maxlength="6000" rows="7"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">Post It! &rarr;</button>
-                            </form>
-                            <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
-                            <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                                <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/fork-286x180.png" alt="Our Team">
+                                        <h4 class="card-title">Our Technology</h4>
+                                        <div class="card-body">
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="img/compass-286x180.png" alt="Our Team">
+                                            <h4 class="card-title">Our Mission</h4>
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="row top-buffer">
+                <div class="container-fluid" id="contact-form-color-block">
+                    <div class="col-lg-12">
+                    <h2>Contact Us</h2>
+                    <form role="form" method="post" id="reused_form" action="https://formsubmit.io/send/poc@5stone.us">
+                        <div class="form-group">
+                            <label for="name"> First Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="name"> First Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"> Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="name"> Message:</label>
+                            <textarea class="form-control" type="textarea" name="message" id="message"
+                                      placeholder="Your Message Here" maxlength="6000" rows="7"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">Post It!
+                            &rarr;
+                        </button>
+                    </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "><h3>Sent your message
+                        successfully!</h3></div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; "><h3>Error</h3> Sorry there
+                        was an error sending your form.
                     </div>
-                    
+                    </div>
+                </div>
+
 
         </div>
-        </div>
-    </div>
-    </div>
+</div>
 
 
-
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
 </body>
 
