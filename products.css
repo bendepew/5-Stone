@@ -1,0 +1,11 @@
+#img-container {
+    display: flex;
+    size: 5%;
+    align-content: center;
+}
+
+.products-art {
+    width: 50%;
+    height: auto;
+}
+

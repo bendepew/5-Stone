@@ -2,10 +2,33 @@ body {
     background-color: #ffffff	;
 }
 
+
 .container {
     padding-top: 2%;
+    justify-content: center;
 }
 
+
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-inner {
+    height: 400px;
+}
+
+#caption-3 {
+    color: #ffffff;
+}
+
+/*@media only screen and (min-width: 768px) {
+    #5-stone-carousel {
+        display: none;
+    }
+}
 
 
 @media (min-width: 769px) and (max-width: 1281px) {
@@ -13,14 +36,24 @@ body {
         align-content: center;
     }
 }
+*/
+
 
 .card {
     border: none;
 }
 
+
+.img-thumbnail {
+    width: 50px;
+    align-items: flex-start;
+  }
+
+
 .card-title {
-    align-content: flex-start;
+    align-content: center;
 }
+
 
 .card-block {
     border: none;
@@ -28,14 +61,11 @@ body {
     opacity: 0;
 }
 
+
 .card-text {
     align-content: center;
 }
 
-.card-img-top {
-    max-width: 35%;
-    max-height: 35%;
-}
 
 .card-heading {
     display: flex;
@@ -43,14 +73,23 @@ body {
     align-items: center;
 }
 
+
+.card-img-top {
+    align-content: center;
+    size: 5%;
+}
+
+
 .img-fluid {
-    width: 100% \9;
+    width: 100%;
     height: 100%;
 }
+
 
 .img-thumbnail {
   width: 50px;
 }
+
 
 .card-title {
   text-align: right;
@@ -63,14 +102,9 @@ body {
     border: none;
 }
 
-}
 
 .top-buffer {
     margin-top: 1%;
-}
-
-.carousel-inner {
-    height: 400px;
 }
 
 
@@ -78,41 +112,58 @@ body {
     size: 50px;
 }
 
+
 .navbar-default {
     padding-right: 15px; 
 }
+
 
 .navbar-expand-lg {
     background-color: #000000;
 }
 
+
 .navbar-nav {
     background-color: #000000;
 }
 
-.jumbotron-fluid {
-    background-image: url('img/jumbotron.png');
-    background-size: cover;
-    height: 50%;
-}
-
-.display-4 {
-    color: aliceblue;
-}
-
-.lead {
-    color: aliceblue;
-}
-
-@media (max-width: 767px) {
-    .navbar-dark .navbar-brand {
-        margin: 0 auto;
-    }
-}
 
 .jumbotron {
-    background-image: url(img/carousel-cropped.png);
-    height: 500px;;
-
+    text-align: center;
+    background-image: url("img/jumbotron.png");
 }
+
+
+.display-4 {
+    color: #ffffff;
+}
+
+
+.lead {
+    color: #ffffff;
+}
+
+
+#form-container {
+    display: flex;
+    align-content: space-between;
+}
+
+
+#btnContactUs {
+    background-color: #aa2b24;
+    border: none;
+}
+
+
+#contact-us-h1 {
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+
+#product-image {
+    height: 5%;
+}
+
 
