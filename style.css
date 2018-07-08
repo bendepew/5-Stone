@@ -2,41 +2,93 @@ body {
     background-color: #ffffff	;
 }
 
+.navbar-default {
+    padding-right: 15px; 
+}
 
 .container {
     padding-top: 2%;
     justify-content: center;
 }
 
+.caption-h1 {
+    font-size: 72px;
+}
 
 .carousel-caption {
     top: 30%;
     bottom: auto;
     color: #fff;
     text-align: center;
+    font-size: 32px;
 }
 
 .carousel-inner {
-    height: 400px;
+    height: auto;
 }
 
 #caption-3 {
     color: #ffffff;
 }
 
-/*@media only screen and (min-width: 768px) {
-    #5-stone-carousel {
-        display: none;
+@media only screen and (max-width: 997px) {
+    .caption-h1 {
+        bottom: auto;
+        font-size: 48px;
+    }
+    .carousel-caption {
+        font-size: 24px;
+        top: 30%;
+    }
+}
+
+@media only screen and (max-width: 747px) {
+    .caption-h1 {
+        bottom: auto;
+        font-size: 42px;
+    }
+    .carousel-caption {
+        font-size: 18px;
+        top: 25%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    #contact-us-h1 {
+        size: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    #card-container-2 {
+        size: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    #card-container-1 {
+        size: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 446px) {
+    .caption-h1 {
+        bottom: auto;
+        font-size: 24px;
+    }
+    .carousel-caption {
+        font-size: 14px;
+        top: 18%;
     }
 }
 
 
-@media (min-width: 769px) and (max-width: 1281px) {
+@media (max-width: 769px) {
     #mobileLogo {
         align-content: center;
     }
 }
-*/
+
 
 
 .card {
@@ -113,9 +165,7 @@ body {
 }
 
 
-.navbar-default {
-    padding-right: 15px; 
-}
+
 
 
 .navbar-expand-lg {

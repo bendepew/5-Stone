@@ -1,4 +1,6 @@
-
+.h6 {
+	font-size: 42px;
+}
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -69,7 +71,7 @@
 
 .hvrbox .hvrbox-text {
 	text-align: center;
-  	font-size: 9px;
+  	font-size: 11px;
   	line-height: 22px;
 	display: inline-block;
 	position: absolute;
